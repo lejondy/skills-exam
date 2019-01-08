@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', "PagesController@index");
+Route::resource('/items', "PagesController");
+Route::get('/ajaxdata', "PagesController@ajaxData");

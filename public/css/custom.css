@@ -1,0 +1,11 @@
+body {
+	padding-top: 20px;
+}
+
+#form-errors {
+	margin-bottom: 30px;
+}
+#form-errors li {
+	font-size: 15px;
+	color:red;
+}

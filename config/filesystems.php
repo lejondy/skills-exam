@@ -42,7 +42,10 @@ return [
     */
 
     'disks' => [
-
+    	'dbjson' => [
+    	    'driver' => 'local',
+    	    'root'   => storage_path().'/dbjson',
+    	  ],
         'local' => [
             'driver' => 'local',
             'root' => storage_path('app'),
